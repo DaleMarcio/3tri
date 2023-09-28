@@ -16,7 +16,7 @@
     position: relative;
 }
 .logo__costa{
-    width: 44px;
+    width: 44px;ratatouille na vida real
     height: 44px;
 }
 .container{
@@ -77,6 +77,16 @@
       text-decoration: none;
       color: var(--preto);
     }
-
-
+    .container__imagem--transparente {
+      display: none;
+    }
+    .cabecalho__menu-hamburguer {
+      display: none;
+    }
+    .opcoes__botao:checked-.lista-menu{
+      display: block;
+    }
+    .opcoes__botao{
+      display: none;
+    }
 }
